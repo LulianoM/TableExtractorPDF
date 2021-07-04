@@ -4,6 +4,8 @@ import pandas as pd
 from tabula import read_pdf
 import functions as f
 
+st.set_page_config(page_icon= 'dados/image1.png', page_title= "PDF Extractor", )
+
 f.header_intro()
 f.side_bar_credis()
 f.header_intro_2()
