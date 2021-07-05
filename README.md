@@ -4,15 +4,21 @@ This project is usefull for those who need use PDF files with tables and always 
 
 Acess the application in: https://pdftableextractor.herokuapp.com/
 
-## To install the packages do the following
+This aplication needs java on background, make sure he's in your machine!
 
-- virtualenv .env
-- .env\Script\activate
 
-Then
+### How to run localy
+```
+python3 -m venv .venv
+source .venv/bin/activate
 
-- pip install -r requirements.txt
+pip install -r requirements.txt
 
-## To run Streamlit
+streamlit run interface.py
+```
 
-- streamlit run interface.py
+### How to run with docker
+```
+docker-compose build .
+docker-compose up -d
+```
